@@ -1,16 +1,20 @@
 #container{
-    width: 500px;
-    height: 500px;  
+    width: 800px;
+    height: 800px;  
     display: flex;
     flex-direction: column;
 }
 
 
-div[class^='line'], div[class*='line']{
+.line{
+    flex: 1;
     display: flex;
+    min-height: 1px;
+    min-height: 1px;
 }
 
-div[class^='div'], div[class*='div']{
+.box{
+    min-height: 1px;
+    min-height: 1px;
     aspect-ratio: 1/1;
-    
 }
